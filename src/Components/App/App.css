@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  font-size: 70px;
+  letter-spacing: 15px;
+}
+
+button {
+  font-size: 40px;
+  font-family: "Rock Salt", cursive;
+  margin: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+body {
+  font-family: "Rock Salt", cursive;
+  font-size: 50px;
+}
+
+h1 {
+  letter-spacing: 15px;
+}
+
+.game-button {
+  border: 5px solid black;
+  border-radius: 20%;
+  padding: 15px;
+}
+
+.game-button:hover {
+  background-color: black;
+  color: white;
 }
